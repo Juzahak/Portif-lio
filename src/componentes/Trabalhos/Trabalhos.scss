@@ -1,0 +1,145 @@
+@import "../../global.scss";
+
+.trabalhos {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    .arrow{
+        height: 3.125rem;
+        position: absolute;
+
+        @include mobile {
+            display: none;
+        }
+
+        &.left{
+            left: 6.25rem;
+            transform: rotateY(180deg);
+            cursor: pointer;
+        }
+        &.right{
+            right: 6.25rem;
+            cursor: pointer;
+        }
+    }
+
+    .slider{
+        height: 31.25rem;
+        display: flex;
+        position: absolute;
+        left: 0;
+        transition: all 1.5s ease-out;
+
+        @include mobile {
+            height: 85vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        .container{
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+
+            .item {
+                width: 50rem;
+                height: 100%;
+                background-color: white;
+                border-radius: 1.25rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                    width: 90%;
+                    height: 10.625rem;
+                    margin: 0.313rem 0;
+                    overflow: hidden;
+                }
+
+                .left{
+                    flex: 4;
+                    height: 80%;
+                    display: flex;
+                align-items: center;
+                justify-content: center;
+
+                    .leftContainer {
+                        width: 90%;
+                        height: 70%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        @include mobile {
+                            width: 80%;
+                            height: 100%;
+                        }
+
+
+                        .imgContainer {
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            border-radius: 50%;
+                            background-color: rgb(245, 179, 155);
+                            display: flex;
+                            align-items: center;
+                justify-content: center;
+
+                @include mobile {
+                    width: 1.875rem;
+                    height: 1.875rem;
+                }
+                            img{
+                                width: 1.563rem;
+
+                                @include mobile {
+                                    width: 0.938rem;
+                                }
+                            }
+                        }
+                        h2{
+                            font-size: 1.25rem;
+
+                            @include mobile {
+                                font-size: 0.813rem;
+                            }
+                        }
+                        p{
+                            font-size: 0.813rem;
+                            @include mobile {
+                                display: none;
+                            }
+                        }
+                        span{
+                            font-size: 0.75rem;
+                            font-weight: 600;
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .right{
+                    flex: 8;
+                    height: 80%;
+                    display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                img{
+                    width: 33.75rem;
+                    height: 28.125rem;
+                    //transform: rotate(-10deg);
+                    
+                }
+                }
+            }
+        }
+    }
+}

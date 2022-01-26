@@ -1,0 +1,95 @@
+@import "../../global.scss";
+
+.cabecalho {
+    width: 100%;
+    height: 4.375rem;
+    background-color: white;
+    color: $mainColor;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: all 1s ease;
+
+
+.wrapper{
+    padding: 0.625rem 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        display: flex;
+        align-items: center;
+
+        .logo{
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        color: inherit;
+        margin-right: 2.5rem;
+    }
+
+    .itemContainer {
+        display: flex;
+        align-items: center;
+        margin-left: 1.875rem;
+
+        @include mobile {
+            display: none;
+        }
+
+        .icon {
+            font-size: 1.125rem;
+            margin-right: 0.313rem;
+        }
+
+        span {
+            font-size: 0.938rem;
+            font-weight: 500;
+        }
+    }
+}
+.right {
+    .hamburguer {
+        width: 1.438rem;
+        height: 1.563rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+
+        span{
+            width: 100%;
+            height: 0.188rem;
+            background-color: $mainColor;
+            transform-origin: left;
+            transition: all 2s ease;
+        }
+    }
+}
+}
+
+ &.active {
+     background-color: $mainColor;
+     color: white;
+
+     .hamburguer {
+         span {
+             &:first-child{
+                 background-color: white;
+                 transform: rotate(45deg);
+                 width: 135%;
+             }
+             &:nth-child(2) {
+                 opacity: 0;
+             }
+             &:last-child {
+                 background-color: white;
+                 transform: rotate(-45deg);
+                 width: 135%;
+             }
+         }
+     }
+ }
+
+}
