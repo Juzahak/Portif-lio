@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.3b9fcc1d.css",
-    "main.js": "/portifolio/static/js/main.7f8ef80e.js",
+    "main.css": "/portifolio/static/css/main.108a52d4.css",
+    "main.js": "/portifolio/static/js/main.194bac17.js",
+    "static/media/juzaviagens.png": "/portifolio/static/media/juzaviagens.77f18df00c13ef6103e8.png",
+    "static/media/juzahak.png": "/portifolio/static/media/juzahak.606ad51377c2d43ac0c9.png",
+    "static/media/pokemon.png": "/portifolio/static/media/pokemon.68834da70940da0b691b.png",
+    "static/media/shakehands.png": "/portifolio/static/media/shakehands.82f3dcd08b5e8c41ec44.png",
+    "static/media/portifolio.png": "/portifolio/static/media/portifolio.09c8a6800c44f054fa0b.png",
+    "static/media/udemyreact.png": "/portifolio/static/media/udemyreact.ad1182f4f8dd339b36ab.png",
+    "static/media/udemyjs.png": "/portifolio/static/media/udemyjs.4e2a0a0f54207c16d2ea.png",
+    "static/media/cursos.png": "/portifolio/static/media/cursos.29605d2887ab50afa416.png",
+    "static/media/right-arrow.png": "/portifolio/static/media/right-arrow.4a3b05197c70630a1504.png",
+    "static/media/twitter.png": "/portifolio/static/media/twitter.94db4a073d271647bc82.png",
     "index.html": "/portifolio/index.html",
-    "main.3b9fcc1d.css.map": "/portifolio/static/css/main.3b9fcc1d.css.map",
-    "main.7f8ef80e.js.map": "/portifolio/static/js/main.7f8ef80e.js.map"
+    "main.108a52d4.css.map": "/portifolio/static/css/main.108a52d4.css.map",
+    "main.194bac17.js.map": "/portifolio/static/js/main.194bac17.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b9fcc1d.css",
-    "static/js/main.7f8ef80e.js"
+    "static/css/main.108a52d4.css",
+    "static/js/main.194bac17.js"
   ]
 }
