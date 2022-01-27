@@ -16,6 +16,21 @@ export default function Cabecalho({menuOpen, setMenuOpen}) {
                         <Mail className="icon"/>
                         <span>Edevaldo.jr.barboza@gmail.com</span>
                     </div>
+                    <div className="itemContainer">
+                    <a href="https://www.linkedin.com/in/edevaldo-barboza-0999a1229/" className="linked">
+                        <img  src = {require("../../assets/in.png")}></img>
+                    </a>
+                    </div>
+                    <div className="itemContainer">
+                    <a href="https://github.com/Juzahak" className="linked">
+                        <img  src = {require("../../assets/GitHub-Mark.png")}></img>
+                    </a>
+                    </div>
+                    <div className="itemContainer">
+                    <a href="https://www.facebook.com/juniior.silva.39" className="linked">
+                        <img  src = {require("../../assets/faceface.png")}></img>
+                    </a>
+                    </div>
                 </div>
                 <div className="right" onClick={()=>setMenuOpen(!menuOpen)}>
                     <div className="hamburguer">

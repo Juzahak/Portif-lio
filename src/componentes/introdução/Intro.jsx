@@ -29,9 +29,26 @@ export default function Intro() {
                    <h1>Edevaldo Barboza</h1>
                    <h3>Programador <span ref={textRef}></span></h3>
                </div>
-               <a href="#portifolio">
+               <a className="seta" href="#portifolio">
                    <img src={require("../../assets/down.png")} alt="" />
                </a>
+               <div className="icones">
+               <div className="itemContainer">
+                    <a href="https://www.linkedin.com/in/edevaldo-barboza-0999a1229/" className="linked">
+                        <img  src = {require("../../assets/in.png")}></img>
+                    </a>
+                    </div>
+                    <div className="itemContainer">
+                    <a href="https://github.com/Juzahak" className="linked">
+                        <img  src = {require("../../assets/GitHub-Mark.png")}></img>
+                    </a>
+                    </div>
+                    <div className="itemContainer">
+                    <a href="https://www.facebook.com/juniior.silva.39" className="linked">
+                        <img  src = {require("../../assets/faceface.png")}></img>
+                    </a>
+                </div>
+                </div>
            </div>
         </div>
     )
