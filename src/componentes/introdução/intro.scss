@@ -103,10 +103,13 @@
             }
         }
 
+        
         .icones{
+            display: none; 
             
+            @include mobile {
             display: flex;
-    justify-content: space-around;
+            justify-content: space-around;
 
             .linked img{
                 width: 2.438rem;
@@ -115,7 +118,7 @@
             }
         
         }
-
+}
 
             .seta{
                 position: absolute;
