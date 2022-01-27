@@ -12,7 +12,15 @@ export default function Trabalhos() {
             title: "Cursos Realizados",
             desc: "Llit. Numqaxime amet nos vero adipisci laborum aliquam doloribus iure.",
             img: require("../../assets/cursos.png"),
-            curso: "Alura"
+            curso: "Alura",
+
+            listinha: <ul className="lista">
+                            <li>★ HTML5 e CSS3</li>
+                            <li>★ JAVASCRIPT</li>
+                            <li>★ REACT</li>
+                            <li>★ WORDPRESS</li>
+                            <li>★ PHP</li>
+                        </ul>
             
         },
         {
@@ -21,8 +29,14 @@ export default function Trabalhos() {
             title: "Em andamento",
             desc: "Llit. Numqaxime amet nos vero adipisci laborum aliquam doloribus iure.",
             img: require("../../assets/udemyjs.png"),
-            curso: "Udemy"
-            
+            curso: "Udemy",
+            listinha: <ul className="lista">
+                            <li>★ A cursar</li>
+                            <li>★ FULL STACK</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
         },
         {
             id: "3",
@@ -30,8 +44,14 @@ export default function Trabalhos() {
             title: "Em andamento",
             desc: "Llit. Numqaxime amet nos vero adipisci laborum aliquam doloribus iure.",
             img:  require("../../assets/udemyreact.png"),
-            curso: "Udemy"
-            
+            curso: "Udemy",
+            listinha: <ul className="lista">
+                            <li>★ A cursar</li>
+                            <li>★ REACT</li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
         },
     ];
 
@@ -59,6 +79,7 @@ export default function Trabalhos() {
                         </div>
                         <div className="right">
                             <img src={d.img} alt="" />
+                            <ul className="lista">{d.listinha}</ul>
                         </div>
                     </div>
                    

@@ -47,6 +47,10 @@
             justify-content: center;
             overflow: hidden;
 
+            @include mobile {
+                margin-bottom: 1rem;
+            }
+            
 
             .item {
                 width: 50rem;
@@ -93,6 +97,7 @@
                 justify-content: center;
 
                 @include mobile {
+                    
                     width: 1.875rem;
                     height: 1.875rem;
                 }
@@ -136,7 +141,25 @@
                     width: 33.75rem;
                     height: 28.125rem;
                     //transform: rotate(-10deg);
+
+                    @include mobile {
+                        display: none;
+                    }
                     
+                }
+                .lista{
+                    display: none;
+
+                    @include mobile {
+                        width: 9rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        position: relative;
+                        right: 1rem;
+                        padding: 0.5rem
+                        
+                    }
                 }
                 }
             }
