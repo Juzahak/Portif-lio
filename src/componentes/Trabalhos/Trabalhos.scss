@@ -150,13 +150,14 @@
                     font-size: 1rem;
 
                     @include mobile {
-                        width: 9rem;
+                        width: 10rem;
                         display: flex;
                         flex-direction: column;
                         justify-content: center;
                         position: relative;
                         right: 1rem;
-                        padding: 0.5rem
+                        padding: 0.5rem;
+                        overflow: hidden;
                         
                     }
                 }
