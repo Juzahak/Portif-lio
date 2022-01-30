@@ -15,26 +15,8 @@ export const destaquesPortifolio = [
     },
     {
         id:3,
-        title:"HTML/CSS/JS",
-        img:require("./assets/pokemon.png"),
-
-    },
-    {
-        id:4,
-        title:"HTML/CSS/JS",
-        img:require("./assets/pokemon.png"),
-
-    },
-    {
-        id:5,
-        title:"HTML/CSS/JS",
-        img:require("./assets/pokemon.png"),
-
-    },
-    {
-        id:6,
-        title:"HTML/CSS/JS",
-        img:require("./assets/pokemon.png"),
+        title:"REACTJS",
+        img:require("./assets/portifolio.png"),
 
     },
 ];

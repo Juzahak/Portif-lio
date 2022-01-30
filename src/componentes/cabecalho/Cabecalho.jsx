@@ -31,6 +31,11 @@ export default function Cabecalho({menuOpen, setMenuOpen}) {
                         <img  src = {require("../../assets/faceface.png")} alt=""></img>
                     </a>
                     </div>
+                    <div className="itemContainer">
+                    <a href="https://wa.me/+5514996528505" target="__blank" className="linked">
+                        <img  src = {require("../../assets/whatslogo1.png")} alt=""></img>
+                    </a>
+                    </div>
                 </div>
                 <div className="right" onClick={()=>setMenuOpen(!menuOpen)}>
                     <div className="hamburguer">
