@@ -19,7 +19,7 @@ export default function Trabalhos() {
             </ul>,
             img: require("../../assets/cursosalura.png"),
             curso: "Alura",
-
+ 
             listinha: <ul className="lista">
                 <li>★ HTML5 e CSS3</li>
                 <li>★ JAVASCRIPT</li>

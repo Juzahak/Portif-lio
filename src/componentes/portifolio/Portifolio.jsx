@@ -20,7 +20,7 @@ export default function Portifolio() {
         {
             id: "reactjs",
             title: "React",
-        },
+        }, 
         {
             id: "reactnative",
             title: "WordPress",

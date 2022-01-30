@@ -7,3 +7,4 @@ export default function Listaportifolio({title, active, setSelected, id}) {
         </li>
     )
 }
+ 

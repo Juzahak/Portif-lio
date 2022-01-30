@@ -21,7 +21,7 @@ export default function Testemunhos() {
             featured: true,
         },
         {
-            id: 3,
+            id: 3, 
             name: "Gabriel Miranda",
             img: require("../../assets/gabriel.jpeg"),
             icon: require("../../assets/whatslogo.png"),

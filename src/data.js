@@ -16,7 +16,7 @@ export const destaquesPortifolio = [
     {
         id:3,
         title:"REACTJS",
-        img:require("./assets/portifolio.png"),
+        img:require("./assets/portifolio.png"), 
 
     },
 ];

@@ -23,4 +23,4 @@ export default function Menu({menuOpen, setMenuOpen}) {
             </ul>
         </div>
     )
-}
+} 
