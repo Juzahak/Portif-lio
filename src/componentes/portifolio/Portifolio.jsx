@@ -2,7 +2,7 @@ import Listaportifolio from '../listaPortifolio/Listaportifolio';
 import './Portifolio.scss';
 import { useState, useEffect } from 'react';
 import {
-    destaquesPortifolio, htmlPortifolio, reactPortifolio, reactnaPortifolio
+    destaquesPortifolio, htmlPortifolio, reactPortifolio, reactnaPortifolio, CPortifolio
 } from "../../data.js"
 
 export default function Portifolio() {
@@ -25,6 +25,10 @@ export default function Portifolio() {
             id: "reactnative",
             title: "WordPress",
         },
+        {
+            id: "C#",
+            title: "C#",
+        },
     ];
 
     useEffect(() => {
@@ -40,6 +44,9 @@ export default function Portifolio() {
                 break;
             case "reactnative":
                 setData(reactnaPortifolio);
+                break;
+            case "C#":
+                setData(CPortifolio);
                 break;
             default:
                 setData(destaquesPortifolio);

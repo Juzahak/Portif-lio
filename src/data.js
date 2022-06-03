@@ -54,3 +54,15 @@ export const reactnaPortifolio = [
 
 
 ];
+
+export const CPortifolio = [
+    {
+        id:1,
+        title:"C#",
+        img:require("./assets/juzaviagens.png"),
+        caminho: "#",
+
+    },
+
+
+];
