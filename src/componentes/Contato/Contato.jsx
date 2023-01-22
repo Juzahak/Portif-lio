@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import './contato.scss';
 import emailjs from 'emailjs-com';
-import axios from 'axios';
+// import axios from 'axios';
 import { useEffect } from 'react';
 export default function Contato() {
     const [message, setMessage] = useState(false)
@@ -72,24 +72,24 @@ export default function Contato() {
         default:
             currentQuestion = "Obrigado, você respondeu a todas as perguntas!";
     }
-    const disparar = async (responses) => {
-        let contador = 0;
-        console.log(responses)
-        responses?.map(([question, response]) => {
-            if(contador === 0){
-                contador++;
-                console.log(question, response, '1')
-            }else if (contador === 1){
-                contador++;
-                console.log(question, response, '2')
-            }else if (contador === 2){
-                contador++;
-                console.log(question, response, '3')
-            }else if (contador === 4){
-                contador++;
-                console.log(question, response, '4')
-            }
-    })
+    // const disparar = async (responses) => {
+    //     let contador = 0;
+    //     console.log(responses)
+    //     responses?.map(([question, response]) => {
+    //         if(contador === 0){
+    //             contador++;
+    //             console.log(question, response, '1')
+    //         }else if (contador === 1){
+    //             contador++;
+    //             console.log(question, response, '2')
+    //         }else if (contador === 2){
+    //             contador++;
+    //             console.log(question, response, '3')
+    //         }else if (contador === 4){
+    //             contador++;
+    //             console.log(question, response, '4')
+    //         }
+    // })
 
         // axios.post('https://api.zenvia.com/v2/channels/whatsapp/messages', {
         //     from: 'outrageous-baron',
@@ -111,7 +111,7 @@ export default function Contato() {
         //     .catch(error => {
         //         console.log(error);
         //     });
-    }
+    // }
 
     console.log(responses)
     
