@@ -1,7 +1,6 @@
 import Listaportifolio from '../listaPortifolio/Listaportifolio';
 import './Portifolio.scss';
 import { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom';
 import {
     destaquesPortifolio, propriosPortifolio, phpPortifolio, nextPortifolio
 } from "../../data.js"
@@ -50,7 +49,7 @@ export default function Portifolio() {
                 {currentItems &&
                     currentItems.map((item) => (
 
-                        <a href={item.caminho} target="_blank">
+                        <a href={item.caminho} rel="noreferrer" target="_blank">
                             <div className="item" >
                                 <img src={item.img} alt="" />
                                 <h3>{item.title}</h3>
