@@ -21,6 +21,7 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 </li>
                 
             </ul>
+            <img  src = {require("../../assets/juzawebwhite.png")} alt=""></img>
         </div>
     )
 } 

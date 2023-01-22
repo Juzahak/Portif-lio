@@ -11,7 +11,7 @@ export default function Intro() {
             showCursor: true,
             backDelay: 1500,
             backSpeed: 60,
-            strings: ["HTML", "CSS", "C#", "JavaScript", "SASS", "ReactJS", "WordPress"],
+            strings: ["Next.JS", "Mongo DB", "MySQL", "ReactJS", "PHP", "HTML", "CSS", "JavaScript", "SASS"],
         });
     }, [])
 

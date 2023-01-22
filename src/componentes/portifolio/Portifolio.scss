@@ -1,12 +1,17 @@
 @import "../../global.scss";
 
+.menuposition {
+    position: relative;
+    top: 10px;
+}
+
 .portifolio {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
 
-    h1{
+    h1 {
         font-size: 3.125rem;
         margin-top: 1rem;
 
@@ -15,9 +20,9 @@
         }
     }
 
-    ul{
-        margin: 0.625rem; 
-        padding: 0px; 
+    ul {
+        margin: 0.625rem;
+        padding: 0px;
         list-style: none;
         display: flex;
 
@@ -29,21 +34,72 @@
 
     .container {
         width: 90%;
-        height: 60%;
+        height: 75%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
         overflow: hidden;
+        position: relative;
+        align-content: center;
+        transition: 0.5s all ease;
+
+        ul {
+            position: absolute;
+            bottom: -10px;
+            width: 300px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        ul li {
+            width: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        ul li:hover {
+            transition: 0.5s all ease;
+            background-color: #15023a;
+            color: white;
+        }
+
+        ul .previous {
+            transition: 0.5s all ease;
+            width: 100px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        ul .selected {
+            background-color: #15023a;
+            color: white;
+        }
+
+        ul .next {
+            transition: 0.5s all ease;
+            width: 100px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
 
         @include mobile {
             width: 100%;
-            height: auto;
         }
 
         .item {
-            width: 15.625rem;
-            height: 11.25rem;
+            width: 35vw;
             border-radius: 1.25rem;
             border: 1px solid rgb(240, 239, 239);
             margin: 0.625rem 1.25rem;
@@ -57,25 +113,28 @@
 
             @include mobile {
                 margin: 0.625rem 0.625rem;
-                width: 8.125rem;
-                height: 6.25rem;
+                width: 10.125rem;
+                height: 11.25rem;
+                overflow: hidden;
             }
 
-            h3{
+            h3 {
                 position: absolute;
                 font-size: 1.25rem;
+                text-align: center;
             }
 
-            img{
+            img {
                 width: 100%;
-                height: 100%;
+                height: 250px;
                 object-fit: cover;
                 z-index: 1;
             }
 
-            &:hover{
+            &:hover {
                 background-color: $mainColor;
-                img{
+
+                img {
                     opacity: 0.2;
                     z-index: 0;
                 }

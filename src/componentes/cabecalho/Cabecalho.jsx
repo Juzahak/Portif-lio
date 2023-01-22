@@ -7,10 +7,11 @@ export default function Cabecalho({menuOpen, setMenuOpen}) {
         <div className={"cabecalho " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Juzahak.</a>
+                    <a href="#intro" className="logo">WebServices</a>
+                    
                     <div className="itemContainer">
                         <Person className="icon"/>
-                        <span>+55 11 96829-5449 </span>
+                        <span>+55 14 99652-8505 </span>
                     </div>
                     <div className="itemContainer">
                         <Mail className="icon"/>
@@ -45,6 +46,7 @@ export default function Cabecalho({menuOpen, setMenuOpen}) {
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
