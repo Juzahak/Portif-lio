@@ -77,6 +77,7 @@ export default function Contato() {
          let contador = 0;
          console.log(responses)
          responses?.map(([question, response]) => {
+             return(
              if(contador === 0){
                  contador++;
                  console.log(question, response, '1')
@@ -89,7 +90,7 @@ export default function Contato() {
              }else if (contador === 4){
                  contador++;
                  console.log(question, response, '4')
-             }
+             })
      })
 
          axios.post('https://api.zenvia.com/v2/channels/whatsapp/messages', {
