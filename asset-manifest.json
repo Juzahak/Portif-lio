@@ -1,27 +1,38 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.b2e0d72a.css",
-    "main.js": "/portifolio/static/js/main.2c3f1059.js",
+    "main.css": "/portifolio/static/css/main.10f58511.css",
+    "main.js": "/portifolio/static/js/main.ec960b9a.js",
     "static/media/juzaviagens.png": "/portifolio/static/media/juzaviagens.77f18df00c13ef6103e8.png",
     "static/media/juzahak.png": "/portifolio/static/media/juzahak.606ad51377c2d43ac0c9.png",
     "static/media/pokemon.png": "/portifolio/static/media/pokemon.68834da70940da0b691b.png",
-    "static/media/shakehands.png": "/portifolio/static/media/shakehands.82f3dcd08b5e8c41ec44.png",
     "static/media/portifolio.png": "/portifolio/static/media/portifolio.09c8a6800c44f054fa0b.png",
+    "static/media/acros.jpg": "/portifolio/static/media/acros.f8af39af70d18c3857b9.jpg",
+    "static/media/molise.jpg": "/portifolio/static/media/molise.fcabf05f3411a4507c3a.jpg",
     "static/media/udemyreact.png": "/portifolio/static/media/udemyreact.ad1182f4f8dd339b36ab.png",
+    "static/media/vilma.jpg": "/portifolio/static/media/vilma.8d46d88ca809e648c65c.jpg",
     "static/media/udemyjs.png": "/portifolio/static/media/udemyjs.4e2a0a0f54207c16d2ea.png",
+    "static/media/cafe.jpg": "/portifolio/static/media/cafe.cd5e7f872863e3260b2d.jpg",
+    "static/media/conex.jpg": "/portifolio/static/media/conex.5eb0ea9cd7673286506c.jpg",
+    "static/media/nm.jpg": "/portifolio/static/media/nm.1b2d7be3ec3406766daf.jpg",
     "static/media/whatslogo1.png": "/portifolio/static/media/whatslogo1.9ff95f6d8b599268d7ca.png",
+    "static/media/bellas.jpg": "/portifolio/static/media/bellas.e4727b8802669bc0174f.jpg",
+    "static/media/uniao.jpg": "/portifolio/static/media/uniao.06e5f95e4adeb3779a2b.jpg",
+    "static/media/park.jpg": "/portifolio/static/media/park.0b41cfbd807be887cde5.jpg",
     "static/media/gabriel.jpeg": "/portifolio/static/media/gabriel.d18c437c32f0ab0ee828.jpeg",
     "static/media/cursosalura.png": "/portifolio/static/media/cursosalura.087f185d6d3e71000cf9.png",
     "static/media/stefanie.jpeg": "/portifolio/static/media/stefanie.b6a7cc381b1b8db6ae59.jpeg",
     "static/media/menduka.jpeg": "/portifolio/static/media/menduka.8af92d335c2f2b33024f.jpeg",
     "static/media/whatslogo.png": "/portifolio/static/media/whatslogo.8b9442948c79c231432c.png",
+    "static/media/juzaweb-removebg.png": "/portifolio/static/media/juzaweb-removebg.2175ba6823f20fbce939.png",
+    "static/media/juzawebwhite.png": "/portifolio/static/media/juzawebwhite.24a63acb797b522e23c9.png",
+    "static/media/send.png": "/portifolio/static/media/send.7403c23a7c8c2ceeafb8.png",
     "static/media/right-arrow.png": "/portifolio/static/media/right-arrow.4a3b05197c70630a1504.png",
     "index.html": "/portifolio/index.html",
-    "main.b2e0d72a.css.map": "/portifolio/static/css/main.b2e0d72a.css.map",
-    "main.2c3f1059.js.map": "/portifolio/static/js/main.2c3f1059.js.map"
+    "main.10f58511.css.map": "/portifolio/static/css/main.10f58511.css.map",
+    "main.ec960b9a.js.map": "/portifolio/static/js/main.ec960b9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2e0d72a.css",
-    "static/js/main.2c3f1059.js"
+    "static/css/main.10f58511.css",
+    "static/js/main.ec960b9a.js"
   ]
 }
