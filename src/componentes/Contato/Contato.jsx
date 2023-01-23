@@ -72,46 +72,47 @@ export default function Contato() {
         default:
             currentQuestion = "Obrigado, você respondeu a todas as perguntas!";
     }
-    // const disparar = async (responses) => {
-    //     let contador = 0;
-    //     console.log(responses)
-    //     responses?.map(([question, response]) => {
-    //         if(contador === 0){
-    //             contador++;
-    //             console.log(question, response, '1')
-    //         }else if (contador === 1){
-    //             contador++;
-    //             console.log(question, response, '2')
-    //         }else if (contador === 2){
-    //             contador++;
-    //             console.log(question, response, '3')
-    //         }else if (contador === 4){
-    //             contador++;
-    //             console.log(question, response, '4')
-    //         }
-    // })
+    
+     const disparar = async (responses) => {
+         let contador = 0;
+         console.log(responses)
+         responses?.map(([question, response]) => {
+             if(contador === 0){
+                 contador++;
+                 console.log(question, response, '1')
+             }else if (contador === 1){
+                 contador++;
+                 console.log(question, response, '2')
+             }else if (contador === 2){
+                 contador++;
+                 console.log(question, response, '3')
+             }else if (contador === 4){
+                 contador++;
+                 console.log(question, response, '4')
+             }
+     })
 
-        // axios.post('https://api.zenvia.com/v2/channels/whatsapp/messages', {
-        //     from: 'outrageous-baron',
-        //     // to: '5514996528505',
-        //     contents: [{
-        //         type: 'text',
-        //         text: 'Eu te amo minha princesa!',
-        //     }],
-        // },
-        //     {
-        //         headers: {
-        //             'X-API-TOKEN': 'oOD_ySSIuCry1Iit54331-ZgSgPa1E_uaKKp',
-        //         }
-        //     }
-        // )
-        //     .then(res => {
-        //         console.log(res.data);
-        //     })
-        //     .catch(error => {
-        //         console.log(error);
-        //     });
-    // }
+         axios.post('https://api.zenvia.com/v2/channels/whatsapp/messages', {
+             from: 'outrageous-baron',
+             // to: '5514996528505',
+             contents: [{
+                 type: 'text',
+                 text: 'Eu te amo minha princesa!',
+             }],
+         },
+             {
+                 headers: {
+                     'X-API-TOKEN': 'oOD_ySSIuCry1Iit54331-ZgSgPa1E_uaKKp',
+                 }
+             }
+         )
+             .then(res => {
+                 console.log(res.data);
+             })
+             .catch(error => {
+                 console.log(error);
+             });
+     }
 
     console.log(responses)
     
