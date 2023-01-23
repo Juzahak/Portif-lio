@@ -95,7 +95,7 @@ export default function Contato() {
 
          axios.post('https://api.zenvia.com/v2/channels/whatsapp/messages', {
              from: 'outrageous-baron',
-             // to: '5514996528505',
+             to: '5514996528505',
              contents: [{
                  type: 'text',
                  text: 'Eu te amo minha princesa!',
