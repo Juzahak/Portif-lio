@@ -5,7 +5,7 @@ import Portifolio from "./componentes/portifolio/Portifolio";
 import Testemunhos from "./componentes/Testemunhos/Testemunhos";
 import Trabalhos from "./componentes/Trabalhos/Trabalhos";
 import './app.scss';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Menu from "./componentes/Menu/Menu";
 
 function App() {
