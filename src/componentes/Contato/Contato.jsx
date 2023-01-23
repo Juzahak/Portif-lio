@@ -1,7 +1,7 @@
 import { useState, useRef } from 'react';
 import './contato.scss';
 import emailjs from 'emailjs-com';
-// import axios from 'axios';
+import axios from 'axios';
 import { useEffect } from 'react';
 export default function Contato() {
     const [message, setMessage] = useState(false)
