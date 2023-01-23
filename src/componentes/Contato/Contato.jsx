@@ -132,6 +132,7 @@ export default function Contato() {
                             <div ref={myDivRef}>
 
                                 {Object.entries(responses).map(([question, response]) => (
+                                    return(
                                     <div key={question}>
                                         <div>
                                             <div className='boxpergunta'>
@@ -145,7 +146,7 @@ export default function Contato() {
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div>)
                                 ))}
                                 <div className='boxpergunta'>
                                     <p style={{ padding: '10px' }}>{currentQuestion}
